@@ -522,7 +522,7 @@ var (
 	ErrBindCount      = ClientError("wrong number of values for bind")
 	ErrBindUnkType    = ClientError("unknown value type for bind")
 	ErrRowLength      = ClientError("wrong length of row slice")
-	ErrBadCommand     = ClientError("comand isn't text SQL nor *Stmt")
+	ErrBadCommand     = ClientError("command isn't text SQL nor *Stmt")
 	ErrWrongDateLen   = ClientError("wrong datetime/timestamp length")
 	ErrWrongTimeLen   = ClientError("wrong time length")
 	ErrUnkMySQLType   = ClientError("unknown MySQL type")

@@ -94,7 +94,7 @@ invalid:
 	return
 }
 
-// Sandard MySQL datetime format
+// Standard MySQL datetime format
 const TimeFormat = "2006-01-02 15:04:05.000000000"
 
 // Returns t as string in MySQL format Converts time.Time zero to MySQL zero.
